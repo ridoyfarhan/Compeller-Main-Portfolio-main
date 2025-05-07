@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ridoy Farhan - Web Developer & Designer</title>
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="shortcut icon" href="img/images-removebg-preview.png" type="image/x-icon" />
+ <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+ <!-- <style>
+  .scrollbar-hide::-webkit-scrollbar {
+   display: none;
+  }
+ </style> -->
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 to-purple-100 font-sans">
+
+ <header class="bg-black">
+  <nav class="bg-gradient-to-r from-violet-400 to-green-600 py-4 px-6 md:px-12">
+   <div class="flex justify-between items-center">
+    <h1 class="text-5xl font-bold text-yellow-300 italic">Portfolio</h1>
+    <ul class="hidden md:flex space-x-6 text-white font-semibold">
+     <li><a href="#" class="text-violet-900 underline">Home</a></li>
+     <li><a href="#" class="hover:text-violet-900">About</a></li>
+     <li><a href="#" class="hover:text-violet-900">Services</a></li>
+     <li><a href="#" class="hover:text-violet-900">Why Me?</a></li>
+     <li><a href="#" class="hover:text-violet-900">Portfolio</a></li>
+     <li><a href="#" class="hover:text-violet-900">Reviews</a></li>
+     <li><a href="#" class="hover:text-violet-900">Pricing</a></li>
+     <li><a href="#" class="hover:text-violet-900">Contact</a></li>
+    </ul>
+    <button id="menu-btn" class="md:hidden text-pink-900 text-2xl">&#9776;</button>
+   </div>
+   <ul id="mobile-menu" class="hidden md:hidden flex flex-col mt-4 space-y-2 text-pink-900 font-semibold">
+    <li><a href="#" class="text-gray-300 underline">Home</a></li>
+    <li><a href="#" class="hover:text-gray-300">About</a></li>
+    <li><a href="#" class="hover:text-gray-300">Services</a></li>
+    <li><a href="#" class="hover:text-gray-300">Why Me?</a></li>
+    <li><a href="#" class="hover:text-gray-300">Portfolio</a></li>
+    <li><a href="#" class="hover:text-gray-300">Reviews</a></li>
+    <li><a href="#" class="hover:text-gray-300">Pricing</a></li>
+    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+   </ul>
+  </nav>
+  <script>
+   document.getElementById('menu-btn').addEventListener('click', function () {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+   });
+  </script>
+ </header>
+
+
+ <!-- hero -->
+
+ <section class="bg-gradient-to-r from-violet-500 to-green-600 min-h-screen flex items-center justify-center">
+  <div class="container mx-auto p-8 flex flex-col md:flex-row items-center">
+   <div class="md:w-1/2 flex justify-center">
+    <img src="img/ridoy.png" alt="Farhan Ridoy" class="w-64 h-auto">
+   </div>
+   <div class="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
+
+    <h1 class="text-5xl font-bold text-black mt-4">
+     Hi, I am <span class=" text-6xl text-purple-900" style="font-family: 'Permanent Marker', cursive;">Ridoy
+      Farhan.</span>
+    </h1>
+
+
+    <!-- <h2 class="text-3xl font-bold text-yellow-400 mt-2">& i'm</h2> -->
+    <h3 class="text-4xl italic font-extrabold text-blue-300">WEB DEVELOPER & DESIGNER</h3>
+    <p class="text-lg text-black mt-4 font-serif font-semibold ">Are you planning to create a new website for your
+     business or personal use?
+    </p>
+    <p class="text-lg text-black font-serif font-extrabold">You are at the right place!</p>
+    <a href="#contact"
+     class="mt-6 inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-3 rounded-lg shadow-lg hover:scale-105 transition">Contact
+     Me</a>
+   </div>
+  </div>
+ </section>
+
+
+
+
+ <!-- About -->
+
+ <section class="container mx-auto p-8 mt-2">
+  <h2 class="text-5xl font-bold text-orange-500 text-center">About Me</h2>
+  <div class="flex flex-col md:flex-row items-center mt-6">
+   <div class="md:w-1/2 flex justify-center">
+    <img src="img/about-img.jpg" alt="About Me" class="w-full md:w-3/4 rounded-lg shadow-lg">
+   </div>
+   <div class="md:w-1/2 text-center md:text-left mt-6 md:mt-0">
+    <h3 class="text-2xl font-semibold text-gray-800">Over 500 Website Designed</h3>
+    <p class="italic text-gray-600 mt-2">I have designed more than 500+ websites for different website design companies
+     in USA, UK, Australia and more.</p>
+    <div class="flex justify-center md:justify-start mt-6 space-x-8">
+     <div>
+      <h4 class="text-3xl font-bold text-black">100+</h4>
+      <p class="text-gray-600">Global Happy Clients</p>
+     </div>
+     <div>
+      <h4 class="text-3xl font-bold text-black">300+</h4>
+      <p class="text-gray-600">Project Completed</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <!-- My Services -->
+
+
+ <section class="bg-gray-to-r from-sky-400 to-violet-400  min-h-[500px] p-10">
+  <!-- <section class="bg-gradient-to-r from-blue-300 to-pink-300 p-10"> -->
+  <h1 class="text-center text-5xl font-bold text-purple-700 mb-10">My Services</h1>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+
+
+
+   <!-- Website Design -->
+   <div class="p-6 bg-gradient-to-b from-blue-100 to-white shadow-lg rounded-lg border-2 border-red-400 text-center">
+    <div class="text-4xl text-blue-500 mb-4">
+     📊 <!-- Chart Icon -->
+    </div>
+    <h2 class="text-xl font-bold text-red-500">Website Design</h2>
+    <p>We design economical websites for small or huge businesses at an affordable pricing.</p>
+   </div>
+
+   <!-- SEO -->
+   <div
+    class="p-6 bg-gradient-to-b from-yellow-100 to-white shadow-lg rounded-lg border-2 border-yellow-400 text-center">
+    <div class="text-4xl text-green-500 mb-4">
+     🔍 <!-- Magnifying Glass Icon -->
+    </div>
+    <h2 class="text-xl font-bold text-yellow-500">SEO</h2>
+    <p>We also offer Search Engine optimization services to grow your business.</p>
+   </div>
+
+   <!-- E-Commerce -->
+   <div class="p-6 bg-gradient-to-b from-pink-100 to-white shadow-lg rounded-lg border-2 border-pink-400 text-center">
+    <div class="text-4xl text-purple-500 mb-4">
+     🛒 <!-- Shopping Cart Icon -->
+    </div>
+    <h2 class="text-xl font-bold text-pink-500">E-Commerce</h2>
+    <p>We design e-commerce websites for all types of businesses so that they can sell their products online.</p>
+   </div>
+
+   <!-- Local SEO -->
+   <div class="p-6 bg-gradient-to-b from-green-100 to-white shadow-lg rounded-lg border-2 border-green-400 text-center">
+    <div class="text-4xl text-yellow-500 mb-4">
+     💵 <!-- Money Icon -->
+    </div>
+    <h2 class="text-xl font-bold text-green-500">Local SEO</h2>
+    <p>Get your business listed in local search results on Google Map and search results.</p>
+   </div>
+
+   <!-- Graphic Design -->
+   <div class="p-6 bg-gradient-to-b from-blue-100 to-white shadow-lg rounded-lg border-2 border-blue-400 text-center">
+    <div class="text-4xl text-pink-500 mb-4">
+     🖨 <!-- Paintbrush Icon -->
+    </div>
+    <h2 class="text-xl font-bold text-blue-500">Graphic Design</h2>
+    <p>We offer economical design for small or big enterprises.</p>
+   </div>
+
+  </div>
+ </section>
+
+
+ <!-- Why Choose Me? -->
+
+ <style>
+  .zoom-contain {
+   width: 100%;
+   overflow: hidden;
+   transition: transform 0.5s ease-in-out;
+  }
+
+  .zoom-contain:hover {
+   transform: scale(1.05);
+  }
+
+  .zoom-contain img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+ </style>
+
+ <script>
+  function toggleAccordion(id, btnId) {
+   let content = document.getElementById(id);
+   let button = document.getElementById(btnId);
+   content.classList.toggle("hidden");
+   button.innerHTML = content.classList.contains("hidden") ? "+" : "×";
+  }
+ </script>
+
+ <section class="bg-gray-100 py-10">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+   <!-- Image Section -->
+   <div class="w-full md:w-1/2 zoom-contain">
+    <img src="img/working woman.webp" alt="Teamwork" class="w-full rounded-lg shadow-lg">
+   </div>
+
+   <!-- Content Section -->
+   <div class="w-full md:w-1/2">
+    <h2 class="text-5xl font-bold text-green-600 py-8 text-center md:text-left">Why Choose Me?</h2>
+    <div class="mt-4">
+     <div class="flex justify-between bg-blue-500 text-white p-4 rounded-t-md cursor-pointer"
+      onclick="toggleAccordion('exp', 'exp-btn')">
+      My Experience <span id="exp-btn">+</span>
+     </div>
+     <div id="exp" class="border p-4 hidden">I have been working as a freelancer for more than 2 years...</div>
+
+     <div class="flex justify-between bg-blue-500 text-white p-4 mt-2 cursor-pointer"
+      onclick="toggleAccordion('fast-work', 'fast-work-btn')">
+      On time & Fast Work <span id="fast-work-btn">+</span>
+     </div>
+     <div id="fast-work" class="border p-4 hidden">You will get your website ready within 48 hours...</div>
+
+     <div class="flex justify-between bg-blue-500 text-white p-4 mt-2 cursor-pointer"
+      onclick="toggleAccordion('templates', 'templates-btn')">
+      Hundreds of templates and layouts <span id="templates-btn">+</span>
+     </div>
+     <div id="templates" class="border p-4 hidden">I have written articles about various aspects of working with
+      WordPress...</div>
+
+     <div class="flex justify-between bg-blue-500 text-white p-4 mt-2 rounded-b-md cursor-pointer"
+      onclick="toggleAccordion('pricing', 'pricing-btn')">
+      Affordable Pricing <span id="pricing-btn">+</span>
+     </div>
+     <div id="pricing" class="border p-4 hidden">Our pricing is very affordable for all small businesses...</div>
+    </div>
+
+    <div class="mt-4 grid grid-cols-2 gap-2 text-sm text-blue-900 font-semibold">
+     <span>✅ First Services</span>
+     <span>✅ First Support</span>
+     <span>✅ Customer Satisfaction</span>
+     <span>✅ No Hidden Charge</span>
+     <span>✅ Affordable Pricing</span>
+     <span>✅ Free Consultation</span>
+     <span>✅ Quality Work</span>
+     <span>✅ Always First time</span>
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+
+
+ <!-- My Work Portfolio -->
+
+
+ <section class="bg-green-900 text-white">
+  <div class="container mx-auto py-12 text-center">
+   <h2 class="text-5xl font-bold text-red-400 mb-6">My Work Portfolio</h2>
+   <div class="mb-6">
+    <button class="bg-purple-600 text-white px-4 py-2 rounded mr-3">All</button>
+    <button class="text-gray-300 hover:text-white mr-3">Website Design</button>
+    <button class="text-gray-300 hover:text-white mr-3">E-Commerce</button>
+    <button class="text-gray-300 hover:text-white mr-3">SEO</button>
+   </div>
+   <div class="grid md:grid-cols-3 gap-6 px-4">
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/1.png" alt="Project 1" class="w-full rounded h-60">
+    </div>
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/2.png" alt="Project 2" class="w-full rounded h-60">
+    </div>
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/3.avif" alt="Project 3" class="w-full rounded h-60">
+    </div>
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/4.png" alt="Project 4" class="w-full rounded h-60">
+    </div>
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/5.png" alt="Project 5" class="w-full rounded h-60">
+    </div>
+    <div class="bg-gray-800 p-2 rounded-lg">
+     <img src="img/6.png" alt="Project 6" class="w-full rounded h-60">
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+
+
+ <!-- Honest Reviews Of Our Clients -->
+ <style>
+  .container {
+   /* display: flex; */
+   /* flex-wrap: wrap; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   gap: 20px;
+  }
+
+  .half-width {
+   flex: 1;
+   max-width: 50%;
+  }
+
+  .slider-container {
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+  }
+
+  .slider {
+   display: flex;
+   gap: 16px;
+   animation: slide 20s linear infinite;
+  }
+
+  .slide {
+   flex: 0 0 auto;
+   width: 320px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   text-align: center;
+  }
+
+  .zoom-container {
+   width: 100%;
+   overflow: hidden;
+   transition: transform 0.5s ease-in-out;
+  }
+
+  .zoom-container:hover {
+   transform: scale(1.15);
+  }
+
+  .zoom-container img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  @keyframes slide {
+   0% {
+    transform: translateX(100%);
+   }
+
+   100% {
+    transform: translateX(-100%);
+   }
+  }
+ </style>
+
+ <section class="bg-gray-100 py-10">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+
+   <div class="half-width zoom-container">
+    <img src="img/client woman.jpg" alt="Working Woman" class="w-full rounded-lg shadow-lg">
+   </div>
+
+   <div class="half-width">
+    <h2 class="text-4xl font-bold text-green-600 mb-6 text-center md:text-left">
+     Honest Reviews Of Our Clients
+    </h2>
+    <div class="slider-container">
+     <div class="slider">
+      <!-- Review 1 -->
+      <div class="slide">
+       <div class="text-yellow-500 text-xl">★★★★★</div>
+       <p class="text-gray-700 mt-3">
+        In any circumstance, you are the one who deserves my work since you exhibit great expertise in the
+        presentation of your work and demonstrate thoroughness in it
+       </p>
+       <div class="mt-6 flex flex-col items-center">
+        <img src="img/w1.avif" alt="User" class="w-14 h-14 rounded-full mb-2">
+        <p class="font-bold text-lg">Dany Hina</p>
+        <p class="text-gray-500 text-sm">Business Owner</p>
+        <span class="text-gray-300 text-4xl -mt-2">❝</span>
+       </div>
+      </div>
+      <!-- Review 2 -->
+      <div class="slide">
+       <div class="text-yellow-500 text-xl">★★★★★</div>
+       <p class="text-gray-700 mt-3">
+        You exhibit great expertise in presenting your work, demonstrating your thoroughness. I would definitely
+        recommend this website to anyone looking for a reliable and professional website design company.
+       </p>
+       <div class="mt-6 flex flex-col items-center">
+        <img src="img/w2.jpg" alt="User" class="w-14 h-14 rounded-full mb-2">
+        <p class="font-bold text-lg">Leeana Linda</p>
+        <p class="text-gray-500 text-sm">Business Owner</p>
+        <span class="text-gray-300 text-4xl -mt-2">❝</span>
+       </div>
+      </div>
+      <!-- Review 3 -->
+      <div class="slide">
+       <div class="text-yellow-500 text-xl">★★★★★</div>
+       <p class="text-gray-700 mt-3">
+        I am very happy with the quality of the work provided by this website. I would definitely recommend this
+        website to anyone looking for a reliable and professional website design company
+       </p>
+       <div class="mt-6 flex flex-col items-center">
+        <img src="img/m2.avif" alt="User" class="w-14 h-14 rounded-full mb-2">
+        <p class="font-bold text-lg">Mak Doysel</p>
+        <p class="text-gray-500 text-sm">Business Owner</p>
+        <span class="text-gray-300 text-4xl -mt-2">❝</span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+  </div>
+ </section>
+
+
+ <!-- Our Flexible Pricing Plans -->
+
+ <section class="bg-green-600">
+  <div class="container mx-auto py-10 text-center">
+   <h2 class="text-5xl font-bold text-violet-900 mb-6"> Our Flexible Pricing Plans</h2>
+
+   <div class=" flex items-center justify-center py-5">
+    <div class="flex flex-wrap justify-center gap-6">
+     <div class="bg-gradient-to-b from-green-300 to-green-500 p-6 rounded-2xl shadow-lg w-80 border border-purple-500">
+      <h2 class="text-xl font-bold text-pink-700 text-center">Local SEO</h2>
+      <p class="text-center text-gray-800">For a reasonable price, I will create a quality website for a large company.
+      </p>
+      <div class="bg-purple-700 text-white text-center py-3 my-4 rounded-lg text-2xl font-bold">$100 <span
+        class="text-sm">Month</span></div>
+      <ul class="text-gray-800 space-y-2">
+       <li>&#10003; 10 page website</li>
+       <li>&#10003; 50+ Products added</li>
+       <li>&#10003; Access to edit the Website</li>
+       <li>&#10003; Gallery Page</li>
+       <li>&#10003; Technical support</li>
+      </ul>
+      <button class="bg-pink-600 text-white px-4 py-2 rounded-lg w-full mt-4">Contact me</button>
+     </div>
+     <div class="bg-gradient-to-b from-green-300 to-green-500 p-6 rounded-2xl shadow-lg w-80 border border-purple-500">
+      <h2 class="text-xl font-bold text-pink-700 text-center">Huge E-commerce Website</h2>
+      <p class="text-center text-gray-800">I will create a professional website for a large company at a reasonable
+       cost.
+      </p>
+      <div class="bg-purple-700 text-white text-center py-3 my-4 rounded-lg text-2xl font-bold">$85 <span
+        class="text-sm">Month</span></div>
+      <ul class="text-gray-800 space-y-2">
+       <li>&#10003; 15 page website</li>
+       <li>&#10003; 85+ Products added</li>
+       <li>&#10003; Contact form</li>
+       <li>&#10003; Gallery Page</li>
+       <li>&#10003; Specialised support</li>
+      </ul>
+      <button class="bg-pink-600 text-white px-4 py-2 rounded-lg w-full mt-4">Contact me</button>
+     </div>
+     <div class="bg-gradient-to-b from-green-300 to-green-500 p-6 rounded-2xl shadow-lg w-80 border border-purple-500">
+      <h2 class="text-xl font-bold text-pink-700 text-center">Business Marketing Website</h2>
+      <p class="text-center text-gray-800">For a fair price, I will design a polished website for a big business.</p>
+      <div class="bg-purple-700 text-white text-center py-3 my-4 rounded-lg text-2xl font-bold">$60 <span
+        class="text-sm">Month</span></div>
+      <ul class="text-gray-800 space-y-2">
+       <li>&#10003; 5 Page Website</li>
+       <li>&#10003; Different Layouts</li>
+       <li>&#10003; Contact form</li>
+       <li>&#10003; Gallery Page</li>
+       <li>&#10003; Specialised support</li>
+      </ul>
+      <button class="bg-pink-600 text-white px-4 py-2 rounded-lg w-full mt-4">Contact me</button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+
+ <!-- footer -->
+
+ <section class="bg-gradient-to-b from-fuchsia-700 via-pink-600 to-orange-500 py-10 text-white">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+   <div class="bg-gradient-to-br from-pink-900 via-purple-900 to-indigo-900 p-6 rounded-lg shadow-lg">
+    <form class="space-y-4">
+     <div class="grid md:grid-cols-2 gap-4">
+      <div>
+       <label class="text-sm">First Name*</label>
+       <input type="text" placeholder="type your name" class="w-full mt-1 px-3 py-2 rounded-md bg-white text-black">
+      </div>
+      <div>
+       <label class="text-sm">Last Name*</label>
+       <input type="text" placeholder="type your name" class="w-full mt-1 px-3 py-2 rounded-md bg-white text-black">
+      </div>
+     </div>
+     <div class="grid md:grid-cols-2 gap-4">
+      <div>
+       <label class="text-sm">Email*</label>
+       <input type="email" placeholder="type your email" class="w-full mt-1 px-3 py-2 rounded-md bg-white text-black">
+      </div>
+      <div>
+       <label class="text-sm">Telephone/Phone*</label>
+       <input type="text" placeholder="type your number" class="w-full mt-1 px-3 py-2 rounded-md bg-white text-black">
+      </div>
+     </div>
+     <div>
+      <label class="text-sm">Comments/Questions*</label>
+      <textarea placeholder="anything say it" class="w-full mt-1 px-3 py-2 rounded-md bg-white text-black"
+       rows="3"></textarea>
+     </div>
+     <button type="submit"
+      class="bg-pink-500 hover:bg-pink-600 transition-all px-5 py-2 rounded-lg text-white font-bold shadow">Submit</button>
+    </form>
+   </div>
+   <div>
+    <h2 class="text-5xl font-bold mb-4">Contact Me</h2>
+    <ul class="space-y-3">
+     <li><strong>📞 Call:</strong> +8801914556834</li>
+     <li><strong>📧 Gmail:</strong> muntafhridoy@gmail.com</li>
+     <li><strong>📍 Address:</strong> "Muntah Ridoy Castle" North Badda Gulshan Badda Link Road, Dhaka, BANGLADESH
+     </li>
+    </ul>
+   </div>
+  </div>
+ </section>
+
+
+
+ <footer class="bg-gradient-to-r from-orange-500 to-red-600 p-4">
+  <div class="container mx-auto flex flex-wrap justify-between items-center">
+   <p class="text-blue-700 font-semibold">&copy; All Rights Reserved.</p>
+   <div class="flex gap-2">
+    <a href="https://www.facebook.com/ridoymuntah/" class="p-2 bg-blue-600 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://x.com/RidoyMuntah" class="p-2 bg-sky-500 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.youtube.com/@ridoymuntah" class="p-2 bg-red-600 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://github.com/muntahridoy" class="p-2 bg-black rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-github"></i>
+    </a>
+    <a href="https://wa.me/8801945566834" class="p-2 bg-green-500 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/hridoy-islam-23b55b35a/"
+     class="p-2 bg-blue-700 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.pinterest.com/muntahridoy/" class="p-2 bg-red-500 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-pinterest-p"></i>
+    </a>
+    <a href="https://www.instagram.com/ridoymuntah/" class="p-2 bg-pink-600 rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@ridoymuntah" class="p-2 bg-black rounded-md hover:opacity-80 text-white">
+     <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://t.me/+8801945566834" class="p-2 bg-blue-600 rounded-md hover:opacity-80 text-white"> <i
+      class="fab fa-telegram"></i>
+    </a>
+    <a href="https://www.behance.net/ridoyfarhan" class="p-2 bg-blue-600 rounded-md hover:opacity-80 text-white"> <i
+      class="fab fa-behance"></i>
+    </a>
+    <a href="https://medium.com/@muntahridoy" class="p-2 bg-black rounded-md hover:opacity-80 text-white"> <i
+      class="fab fa-medium"></i>
+    </a>
+   </div>
+  </div>
+ </footer>
+
+</body>
+
+</html>
